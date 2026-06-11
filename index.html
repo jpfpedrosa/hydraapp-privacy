@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Política de Privacidade - HydraApp</title>
+  <title>Política de Privacidade - HydraApp | 隐私政策</title>
   <style>
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -27,110 +27,211 @@
     .last-updated { font-size: 0.9rem; color: #666; margin-bottom: 1rem; }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    .lang-divider {
+      border: none;
+      border-top: 3px solid #0066cc;
+      margin: 48px 0;
+    }
+    .lang-switcher {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .lang-switcher a {
+      padding: 6px 16px;
+      border: 1px solid #0066cc;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .lang-switcher a:hover {
+      background: #0066cc;
+      color: #fff;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Política de Privacidade - HydraApp</h1>
-    <p class="last-updated">Última atualização: 11/06/2026</p>
 
-    <p>
-      Esta Política de Privacidade explica como a aplicação <strong>HydraApp</strong>, desenvolvida por
-      <strong>Jose Pedro Fontes Pedrosa</strong>, recolhe, utiliza e protege as informações dos seus utilizadores.
-    </p>
-    <p>
-      <strong>Developer:</strong> Jose Pedro Fontes Pedrosa<br />
-      <strong>Contacto:</strong> <a href="mailto:jpefopedrosa@gmail.com">jpefopedrosa@gmail.com</a>
-    </p>
+    <div class="lang-switcher">
+      <a href="#pt">🇵🇹 Português</a>
+      <a href="#zh">🇨🇳 中文</a>
+    </div>
 
-    <h2>1. Informações Recolhidas</h2>
-    <h3>1.1 Dados de Conta e Autenticação</h3>
-    <p>Quando o utilizador cria uma conta ou inicia sessão na HydraApp, podemos recolher:</p>
-    <ul>
-      <li>Endereço de email</li>
-      <li>Palavra-passe (armazenada e processada de forma segura pelo Firebase Authentication)</li>
-      <li>Identificador de utilizador (UID gerado pelo Firebase)</li>
-      <li>Nome de utilizador e email obtidos através do Huawei ID (em dispositivos Huawei)</li>
-      <li>Nome de utilizador e email obtidos através da conta Google (em dispositivos não-Huawei)</li>
-    </ul>
+    <!-- ========== PORTUGUÊS ========== -->
+    <div id="pt">
+      <h1>Política de Privacidade - HydraApp</h1>
+      <p class="last-updated">Última atualização: 11/06/2026</p>
 
-    <h3>1.2 Dados de Saúde e Hidratação</h3>
-    <p>A HydraApp recolhe e armazena dados introduzidos pelo utilizador relacionados com os seus hábitos de hidratação, nomeadamente:</p>
-    <ul>
-      <li>Registo de consumo de água e outras bebidas</li>
-      <li>Objetivos diários de hidratação definidos pelo utilizador</li>
-      <li>Histórico de consumo ao longo do tempo</li>
-    </ul>
-    <p>Estes dados são armazenados de forma segura e utilizados exclusivamente para o funcionamento da aplicação.</p>
+      <p>
+        Esta Política de Privacidade explica como a aplicação <strong>HydraApp</strong>, desenvolvida por
+        <strong>Jose Pedro Fontes Pedrosa</strong>, recolhe, utiliza e protege as informações dos seus utilizadores.
+      </p>
+      <p>
+        <strong>Developer:</strong> Jose Pedro Fontes Pedrosa<br />
+        <strong>Contacto:</strong> <a href="mailto:jpefopedrosa@gmail.com">jpefopedrosa@gmail.com</a>
+      </p>
 
-    <h3>1.3 Dados Técnicos</h3>
-    <p>Podem ser recolhidas automaticamente algumas informações técnicas, tais como:</p>
-    <ul>
-      <li>Informações sobre o dispositivo (modelo, versão do sistema operativo)</li>
-      <li>Dados de utilização e performance anónimos através de serviços como o Firebase Analytics (se ativo)</li>
-    </ul>
-    <p><strong>Não recolhemos dados sensíveis</strong> (como morada, documentos de identificação ou informação financeira).</p>
+      <h2>1. Informações Recolhidas</h2>
+      <h3>1.1 Dados de Conta e Autenticação</h3>
+      <p>Quando o utilizador cria uma conta ou inicia sessão na HydraApp, podemos recolher:</p>
+      <ul>
+        <li>Endereço de email</li>
+        <li>Palavra-passe (armazenada e processada de forma segura pelo Firebase Authentication)</li>
+        <li>Identificador de utilizador (UID gerado pelo Firebase)</li>
+        <li>Nome de utilizador e email obtidos através do Huawei ID (em dispositivos Huawei)</li>
+        <li>Nome de utilizador e email obtidos através da conta Google (em dispositivos não-Huawei)</li>
+      </ul>
 
-    <h2>2. Uso das Informações</h2>
-    <p>As informações recolhidas são utilizadas exclusivamente para:</p>
-    <ul>
-      <li>Permitir a autenticação e o acesso à conta do utilizador</li>
-      <li>Garantir o correto funcionamento da aplicação</li>
-      <li>Melhorar funcionalidades, desempenho e estabilidade</li>
-      <li>Garantir a segurança e prevenir uso indevido ou fraudulento</li>
-    </ul>
-    <p><strong>Não utilizamos os dados para exibição de anúncios</strong> nem os vendemos ou partilhamos para fins de marketing.</p>
+      <h3>1.2 Dados de Saúde e Hidratação</h3>
+      <ul>
+        <li>Registo de consumo de água e outras bebidas</li>
+        <li>Objetivos diários de hidratação definidos pelo utilizador</li>
+        <li>Histórico de consumo ao longo do tempo</li>
+      </ul>
 
-    <h2>3. Firebase, Huawei e Serviços Associados</h2>
-    <p>A HydraApp utiliza serviços da plataforma <strong>Google Firebase</strong>, que podem incluir:</p>
-    <ul>
-      <li>Firebase Authentication</li>
-      <li>Firebase Analytics</li>
-      <li>Firebase Firestore (para armazenamento de dados da aplicação)</li>
-    </ul>
-    <p>
-      Os dados são armazenados e processados de acordo com as políticas de privacidade da Google e em conformidade com o RGPD.
-      Recomenda-se a leitura da <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade da Google/Firebase</a>.
-    </p>
-    <p>
-      Em dispositivos Huawei, a autenticação pode ser realizada através do <strong>Huawei ID</strong>.
-      Recomenda-se a leitura da <a href="https://consumer.huawei.com/en/privacy/privacy-policy/" target="_blank">Política de Privacidade da Huawei</a>.
-    </p>
+      <h3>1.3 Dados Técnicos</h3>
+      <ul>
+        <li>Informações sobre o dispositivo (modelo, versão do sistema operativo)</li>
+        <li>Dados de utilização e performance anónimos através do Firebase Analytics (se ativo)</li>
+      </ul>
+      <p><strong>Não recolhemos dados sensíveis</strong> (como morada, documentos de identificação ou informação financeira).</p>
 
-    <h2>4. Armazenamento e Segurança</h2>
-    <ul>
-      <li>As palavras-passe nunca são armazenadas em texto claro.</li>
-      <li>Os dados são guardados em servidores seguros geridos pelo Firebase/Google.</li>
-      <li>O acesso aos dados é limitado às funcionalidades necessárias ao funcionamento da aplicação.</li>
-    </ul>
+      <h2>2. Uso das Informações</h2>
+      <ul>
+        <li>Permitir a autenticação e o acesso à conta do utilizador</li>
+        <li>Garantir o correto funcionamento da aplicação</li>
+        <li>Melhorar funcionalidades, desempenho e estabilidade</li>
+        <li>Garantir a segurança e prevenir uso indevido ou fraudulento</li>
+      </ul>
+      <p><strong>Não utilizamos os dados para exibição de anúncios</strong> nem os vendemos ou partilhamos para fins de marketing.</p>
 
-    <h2>5. Partilha de Dados com Terceiros</h2>
-    <p>Não partilhamos dados pessoais com terceiros, exceto quando necessário para o funcionamento técnico da aplicação (Google Firebase ou Huawei HMS). Em nenhum caso os dados são vendidos ou cedidos para fins comerciais ou publicitários.</p>
+      <h2>3. Firebase, Huawei e Serviços Associados</h2>
+      <p>A HydraApp utiliza serviços da plataforma <strong>Google Firebase</strong> (Authentication, Analytics, Firestore).</p>
+      <p>Recomenda-se a leitura da <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade da Google/Firebase</a>.</p>
+      <p>Em dispositivos Huawei, a autenticação pode ser realizada através do <strong>Huawei ID</strong>.
+      Recomenda-se a leitura da <a href="https://consumer.huawei.com/en/privacy/privacy-policy/" target="_blank">Política de Privacidade da Huawei</a>.</p>
 
-    <h2>6. Direitos do Utilizador</h2>
-    <p>O utilizador tem o direito de:</p>
-    <ul>
-      <li>Solicitar acesso aos seus dados pessoais</li>
-      <li>Solicitar a correção de dados incorretos ou incompletos</li>
-      <li>Solicitar a eliminação da sua conta e dos dados associados</li>
-      <li>Solicitar, quando tecnicamente possível, a exportação dos seus dados</li>
-    </ul>
-    <p>
-      Para exercer estes direitos, contacte-nos pelo email abaixo ou utilize a funcionalidade de eliminação de conta
-      disponível em <a href="https://jpfpedrosa.github.io/hydraapp-privacy/delete-account.html">delete-account</a>.
-    </p>
+      <h2>4. Armazenamento e Segurança</h2>
+      <ul>
+        <li>As palavras-passe nunca são armazenadas em texto claro.</li>
+        <li>Os dados são guardados em servidores seguros geridos pelo Firebase/Google.</li>
+        <li>O acesso aos dados é limitado às funcionalidades necessárias ao funcionamento da aplicação.</li>
+      </ul>
 
-    <h2>7. Privacidade de Menores</h2>
-    <p>A HydraApp não se destina ao uso por crianças menores de 13 anos. Não recolhemos intencionalmente dados de menores de 13 anos.</p>
+      <h2>5. Partilha de Dados com Terceiros</h2>
+      <p>Não partilhamos dados pessoais com terceiros, exceto quando necessário para o funcionamento técnico (Google Firebase ou Huawei HMS). Em nenhum caso os dados são vendidos ou cedidos para fins comerciais.</p>
 
-    <h2>8. Alterações a Esta Política</h2>
-    <p>Esta Política de Privacidade pode ser atualizada periodicamente. Qualquer alteração relevante será comunicada através de atualização da própria aplicação.</p>
+      <h2>6. Direitos do Utilizador</h2>
+      <ul>
+        <li>Solicitar acesso aos seus dados pessoais</li>
+        <li>Solicitar a correção de dados incorretos ou incompletos</li>
+        <li>Solicitar a eliminação da sua conta e dos dados associados</li>
+        <li>Solicitar a exportação dos seus dados</li>
+      </ul>
+      <p>Para exercer estes direitos, contacte-nos pelo email abaixo ou utilize a
+      <a href="https://jpfpedrosa.github.io/hydraapp-privacy/delete-account.html">funcionalidade de eliminação de conta</a>.</p>
 
-    <h2>9. Contacto</h2>
-    <p>
-      <strong>Jose Pedro Fontes Pedrosa</strong><br />
-      Email: <a href="mailto:jpefopedrosa@gmail.com">jpefopedrosa@gmail.com</a>
-    </p>
+      <h2>7. Privacidade de Menores</h2>
+      <p>A HydraApp não se destina ao uso por crianças menores de 13 anos. Não recolhemos intencionalmente dados de menores.</p>
+
+      <h2>8. Alterações a Esta Política</h2>
+      <p>Esta Política pode ser atualizada periodicamente. Qualquer alteração relevante será comunicada através da aplicação.</p>
+
+      <h2>9. Contacto</h2>
+      <p>
+        <strong>Jose Pedro Fontes Pedrosa</strong><br />
+        Email: <a href="mailto:jpefopedrosa@gmail.com">jpefopedrosa@gmail.com</a>
+      </p>
+    </div>
+
+    <hr class="lang-divider" />
+
+    <!-- ========== 中文 ========== -->
+    <div id="zh">
+      <h1>隐私政策 - HydraApp</h1>
+      <p class="last-updated">最后更新：2026年6月11日</p>
+
+      <p>
+        本隐私政策说明 <strong>HydraApp</strong> 应用程序（由 <strong>Jose Pedro Fontes Pedrosa</strong> 开发）如何收集、使用和保护用户信息。
+      </p>
+      <p>
+        <strong>开发者：</strong> Jose Pedro Fontes Pedrosa<br />
+        <strong>联系方式：</strong> <a href="mailto:jpefopedrosa@gmail.com">jpefopedrosa@gmail.com</a>
+      </p>
+
+      <h2>1. 收集的信息</h2>
+      <h3>1.1 账户和身份验证数据</h3>
+      <p>当用户创建账户或登录 HydraApp 时，我们可能收集：</p>
+      <ul>
+        <li>电子邮件地址</li>
+        <li>密码（由 Firebase Authentication 安全存储和处理）</li>
+        <li>用户标识符（Firebase 生成的 UID）</li>
+        <li>通过华为 ID 获取的用户名和电子邮件（华为设备）</li>
+        <li>通过 Google 账户获取的用户名和电子邮件（非华为设备）</li>
+      </ul>
+
+      <h3>1.2 健康与饮水数据</h3>
+      <ul>
+        <li>饮水和其他饮料的消费记录</li>
+        <li>用户设定的每日饮水目标</li>
+        <li>历史消费记录</li>
+      </ul>
+
+      <h3>1.3 技术数据</h3>
+      <ul>
+        <li>设备信息（型号、操作系统版本）</li>
+        <li>通过 Firebase Analytics 收集的匿名使用数据（如已启用）</li>
+      </ul>
+      <p><strong>我们不收集敏感数据</strong>（如地址、身份证件或财务信息）。</p>
+
+      <h2>2. 信息的使用</h2>
+      <ul>
+        <li>允许用户身份验证和访问账户</li>
+        <li>确保应用程序正常运行</li>
+        <li>改善功能、性能和稳定性</li>
+        <li>确保安全并防止滥用或欺诈</li>
+      </ul>
+      <p><strong>我们不将数据用于广告展示</strong>，也不出售或共享数据用于营销目的。</p>
+
+      <h2>3. Firebase、华为及相关服务</h2>
+      <p>HydraApp 使用 <strong>Google Firebase</strong> 平台服务（Authentication、Analytics、Firestore）。</p>
+      <p>建议阅读 <a href="https://policies.google.com/privacy" target="_blank">Google/Firebase 隐私政策</a>。</p>
+      <p>在华为设备上，身份验证可通过 <strong>华为 ID</strong> 进行。
+      建议阅读 <a href="https://consumer.huawei.com/cn/privacy/privacy-policy/" target="_blank">华为隐私政策</a>。</p>
+
+      <h2>4. 存储与安全</h2>
+      <ul>
+        <li>密码从不以明文形式存储。</li>
+        <li>数据存储在由 Firebase/Google 管理的安全服务器上。</li>
+        <li>数据访问仅限于应用程序运行所需的功能。</li>
+      </ul>
+
+      <h2>5. 与第三方共享数据</h2>
+      <p>除应用程序技术运营所需（Google Firebase 或华为 HMS）外，我们不与第三方共享个人数据。数据不会出于商业目的出售或转让。</p>
+
+      <h2>6. 用户权利</h2>
+      <ul>
+        <li>请求访问个人数据</li>
+        <li>请求更正不准确或不完整的数据</li>
+        <li>请求删除账户及相关数据</li>
+        <li>在技术可行时请求导出数据</li>
+      </ul>
+      <p>如需行使上述权利，请通过以下电子邮件联系我们，或使用
+      <a href="https://jpfpedrosa.github.io/hydraapp-privacy/delete-account.html">账户删除功能</a>。</p>
+
+      <h2>7. 未成年人隐私</h2>
+      <p>HydraApp 不适合 13 岁以下儿童使用。我们不会故意收集未成年人数据。</p>
+
+      <h2>8. 政策变更</h2>
+      <p>本隐私政策可能定期更新。任何重大变更将通过应用程序更新通知用户。</p>
+
+      <h2>9. 联系方式</h2>
+      <p>
+        <strong>Jose Pedro Fontes Pedrosa</strong><br />
+        电子邮件：<a href="mailto:jpefopedrosa@gmail.com">jpefopedrosa@gmail.com</a>
+      </p>
+    </div>
+
   </div>
 </body>
 </html>
