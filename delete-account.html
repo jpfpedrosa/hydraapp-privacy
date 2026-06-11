@@ -1,28 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Eliminação de Conta - HydraApp</title>
+  <title>Eliminação de Conta - HydraApp | 账户删除</title>
   <style>
     body { font-family: Arial, sans-serif; padding: 20px; background: #f1f1f1; }
     .box { background: #fff; padding: 20px; border-radius: 8px; max-width: 700px; margin: auto; }
     h2 { margin-top: 0; }
     a { color: #0066cc; }
+    .lang-switcher {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .lang-switcher a {
+      padding: 6px 16px;
+      border: 1px solid #0066cc;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+    .lang-switcher a:hover {
+      background: #0066cc;
+      color: #fff;
+    }
+    .lang-divider {
+      border: none;
+      border-top: 3px solid #0066cc;
+      margin: 32px 0;
+    }
   </style>
 </head>
 <body>
   <div class="box">
-    <h2>Pedido de Eliminação de Conta</h2>
-    <p>
-      Caso pretenda eliminar a sua conta da aplicação <strong>HydraApp</strong>,
-      envie um email para:
-    </p>
-    <p>
-      📩 <a href="mailto:jpefopedrosa@gmail.com">jpefopedrosa@gmail.com</a>
-    </p>
-    <p>
-      No email, inclua o endereço utilizado para iniciar sessão. O processo de remoção será concluído no prazo máximo de 30 dias.
-    </p>
+
+    <div class="lang-switcher">
+      <a href="#pt">🇵🇹 Português</a>
+      <a href="#zh">🇨🇳 中文</a>
+    </div>
+
+    <!-- ========== PORTUGUÊS ========== -->
+    <div id="pt">
+      <h2>Pedido de Eliminação de Conta</h2>
+      <p>
+        Caso pretenda eliminar a sua conta da aplicação <strong>HydraApp</strong>,
+        envie um email para:
+      </p>
+      <p>
+        📩 <a href="mailto:jpefopedrosa@gmail.com">jpefopedrosa@gmail.com</a>
+      </p>
+      <p>
+        No email, inclua o endereço utilizado para iniciar sessão. O processo de remoção será concluído no prazo máximo de 30 dias.
+      </p>
+      <p>
+        <strong>Developer:</strong> Jose Pedro Fontes Pedrosa
+      </p>
+    </div>
+
+    <hr class="lang-divider" />
+
+    <!-- ========== 中文 ========== -->
+    <div id="zh">
+      <h2>账户删除请求</h2>
+      <p>
+        如果您希望删除 <strong>HydraApp</strong> 账户，请发送电子邮件至：
+      </p>
+      <p>
+        📩 <a href="mailto:jpefopedrosa@gmail.com">jpefopedrosa@gmail.com</a>
+      </p>
+      <p>
+        请在邮件中注明您用于登录的电子邮件地址。删除过程将在最多 30 天内完成。
+      </p>
+      <p>
+        <strong>开发者：</strong> Jose Pedro Fontes Pedrosa
+      </p>
+    </div>
+
   </div>
 </body>
 </html>
